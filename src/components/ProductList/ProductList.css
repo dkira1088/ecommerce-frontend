@@ -1,0 +1,32 @@
+.product-list-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .product-list-container h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2em;
+    color: #333;
+  }
+  
+  .product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* O 'flex-start' si prefieres alinearlos a la izquierda */
+    gap: 16px; /* Espacio entre tarjetas */
+  }
+  
+  .loading-message,
+  .error-message,
+  .no-products-message {
+    text-align: center;
+    font-size: 1.2em;
+    padding: 20px;
+    color: #555;
+  }
+  
+  .error-message {
+    color: red;
+  }
